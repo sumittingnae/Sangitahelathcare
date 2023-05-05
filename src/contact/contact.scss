@@ -1,0 +1,231 @@
+.Contact {
+    .container {
+      
+        .wrappe {
+            margin-top: 200px;
+            color: #000;
+            text-align: center;
+            width: 100%;
+            z-index: -1;
+
+            h5 {
+                font-size: 50px;
+                color: var(--blue);
+
+            }
+
+            img {
+                position: absolute;
+                margin-top: -150px;
+                margin-left: -250px;
+                opacity: 0.1;
+            }
+
+        }
+    }
+
+    .container {
+        .wrapped {
+            border: 1px solid #000;
+            width: 86%;
+            margin-top: 200px;
+            margin-left: 100px;
+            padding: 20px 65px;
+            margin-bottom: 20px;
+           // z-index: -1;
+            padding: 20px 55px;
+            border-radius: 30px;
+            border: 1px solid #fff;
+            background-color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+           
+        .form-text {
+                margin-top: 20px;
+
+                input {
+                    width: 400px;
+                    padding: 20px 15px;
+                    border-radius: 10px;
+                    border: 1px solid var(--blue);
+
+
+                }
+                select {
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    border: 1px solid var(--blue);
+                width: 400px;  }                              
+                }
+                 textarea{
+                    width: 400px;
+                    border-radius: 10px;
+                    height: 150px;
+                    padding: 10px 15px;
+                    border: 1px solid var(--blue);
+                    resize: none;
+                 }
+
+            .btn {
+                background-color: var(--orange);
+                color: #fff;
+                margin-top: 20px;
+                width: 400px;
+                padding: 10px 15px;
+            }
+
+            .right-side{
+                .contact-inform{
+                    border: 1px solid #000;
+                    margin-left: 100px;
+                    width: 500px;
+                    height:580px;
+                    padding: 30px 55px;
+                    background-color: var(--blue);
+                    border-radius: 10px;
+                 h5{
+                        
+                        width: 300px;
+                        color: #fff;
+                        font-size: 30px;
+
+                       
+                    }
+                    // i{
+                       
+                    // }
+                    .loc{
+                        margin-top: -20px;
+                        span {
+                                font-size: 20px;
+                                color: #fff;
+                                font-weight: bold;
+                                padding-bottom: 25px;
+                                border-bottom: 1px solid #ffffff9d;
+                                max-width: 200px;
+                                margin-top: -100px;
+                        
+                        
+                        
+                                i {
+                                    margin-right: 25px;
+                                    font-size: 30px;
+                                    margin-top: 45px;
+                                    color: #fff;
+                                }
+                            }
+                    }
+                .add{
+                    margin-top: 30px;
+                    font-size: 15px;
+                    width: 250px;
+                    color: #fff;
+                    font-weight: 500;
+                    padding: 0px;
+                   
+                }
+                .email{
+                    margin-top: 30px;
+                    span{
+                        font-size: 20px;
+                        color: #fff;
+                    font-weight: bold;
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid #ffffff9d;
+                    }
+                           
+                    p{
+                        margin-top: 30px;
+                        width: 200px;span{
+                            font-size: 20px;
+                        color: #fff;
+                    font-weight: bold;
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid #ffffff9d;
+                        }
+                        color: #fff;
+                        font-weight: 500;
+
+                    }
+                                         
+                }
+                .follow{
+                    margin-top: 30px;
+                    span{
+                        font-size: 20px;
+                            color: #fff;
+                            font-weight: bold;
+                            padding-bottom: 25px;
+                            border-bottom: 1px solid #ffffff9d;
+
+                    }
+                    p{
+                        margin-top: 0px;                                               
+                       a{
+                        margin-right: 20px;
+                        i{
+                            background-color: #fff;
+                            padding: 10px;
+                            color: var(--blue);
+                            border-radius: 15px;
+                            margin-top: 40px;
+
+                        }
+                        i:hover{
+                            background-color: var(--orange);
+                            color: #fff;
+                        }
+                        
+                        
+                       }
+
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .Contact{
+        .container{
+            .wrapped{
+                width: 100%;
+                height: 100%;
+                margin-left: 50px;
+                padding: 0;
+                   .form-text{
+                    width: 100%;
+                    padding: 0;
+                        margin-left: 15px;
+                    input{
+                        width: 100%;
+                       
+                    }
+                    select{
+                        width:100%;
+                    }
+                    textarea{
+                            width: 100%;
+                    }
+                    
+                   }
+                                   .btn {
+                                       width: 300px;
+                                       margin-left: 10px;
+                                   }
+
+                                   .right-side{
+                                        width: 100%;
+                                    .contact-inform{
+                                        margin-left: 0px;
+                                        margin-top: 30px;
+                                        width: 100%;
+                                    }
+                                   }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+.menus{
+    display: none;
+}
+@media(max-width:771px){
+    .menus{
+        display: block;
+        margin-top: 30px;
+        margin-left: -30px;
+        #dropdown-basic-button{
+            background-color: var(--blue);
+        }
+
+        #menu{
+            text-decoration: none;
+            color: var(--blue);
+        }
+    }
+}

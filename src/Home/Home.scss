@@ -1,0 +1,200 @@
+:root {
+    --blue: #19bd60;
+    --blue: #565acf;
+    --black: hsl(0, 0%, 27%);
+    --orange: #f17732;
+    --white: white;
+    --light-color: #777;
+    --light-blue: #7b7ed0;
+    --border: 1px solid white;
+    --box-shadow: 0px 5px 6px 0 orange;
+
+
+}
+
+.home {
+    .container {
+
+        //border: 1px solid red;
+        .wrappe {
+            margin: 20% 0px 0px 0px;
+            //border: 1px solid var(--blue);
+            padding: 20px 55px;
+            display: flex;
+
+            .content {
+                width: 550px;
+                // border: 1px solid var(--blue);
+
+                img {
+                    width: 40px;
+                    margin-top: 0px;
+                    z-index: -1;
+                    opacity: 1;
+                }
+
+                span {
+                    font-size: 15px;
+                    margin-left: -40px;
+                    font-weight: bold;
+
+
+                    padding: 5px 10px;
+                    color: var(--blue);
+
+                }
+
+                h3 {
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: var(--light-blue);
+                }
+
+                .read-more {
+                    margin: 15px 0px 0px 25px;
+
+
+
+                    .btn {
+                        background-color: var(--orange);
+                        font-size: 15px;
+
+                        color: var(--black);
+                        font-weight: normal;
+                        box-shadow: var(--box-shadow);
+
+                    }
+
+                    .btn:hover {
+                        color: var(--white);
+                    }
+                }
+                .side{
+                    margin: -50px 0px 0px -70px;
+                   
+                    img{
+                        width:50px;
+                     
+                        animation-name: floating;
+                            animation-duration: 3s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: ease-in-out;
+                            margin-left: 0px;
+                            margin-top: 0px;
+
+                    }
+                }
+            }
+                        .right {
+                           margin-top: -100px;
+                            margin-left: 200px;
+                           
+
+                           
+                            .img {
+                               
+                                width: 400px;
+                                height: 400px;
+                               
+                                animation-name: floating;
+                                    animation-duration: 3s;
+                                    animation-iteration-count: infinite;
+                                    animation-timing-function: ease-in-out;
+                                    margin-left: 30px;
+                                    margin-top: 0px;
+                             img {
+                                    width: 100%;
+                                }
+                            }
+                           .back{
+                            margin-left: -20px;
+                            gap:20px;
+                            
+                            #img1{
+                                
+                                animation-name: floating;
+                                    animation-duration: 3s;
+                                    animation-iteration-count: infinite;
+                                    animation-timing-function: ease-in-out;
+                                    margin-left: 0px;
+                                    margin-top: 0px;
+                            }
+
+                           }
+                                                        
+                                                        @keyframes floating {
+                                                            0% {
+                                                                transform: translate(0, 0px);
+                                                            }
+                            
+                                                            50% {
+                                                                transform: translate(0, 15px);
+                                                            }
+                            
+                                                            100% {
+                                                                transform: translate(0, -0px);
+                                                            }
+                                                        }
+            }
+        }
+
+    }
+}
+
+@media(max-width:771px) {
+    .home {
+        .container {
+            .wrappe{
+                display: block;
+                width: fit-content;
+                margin: 30% 0px 0px 0px;
+                    //border: 1px solid var(--blue);
+                    padding: 0px 50px;
+                    .content{
+                        width: 100%;
+                        span {
+                                font-size: 10px;
+                                margin-left: -40px;
+                                font-weight: bold;
+                        
+                        
+                                padding: 5px 10px;
+                                color: var(--blue);
+                        
+                            }
+                        
+                            h3 {
+                                font-size: 25px;
+                                font-weight: bold;
+                                color: var(--light-blue);
+                            }
+
+
+                    }
+                                         .right {
+                                             margin-top: -100px;
+                                             margin-left: 50px;
+                    
+                                             .img {
+                    
+                                                 width: 200px;
+                                                 height: 200px;
+                    
+                                                 animation-name: floating;
+                                                 animation-duration: 3s;
+                                                 animation-iteration-count: infinite;
+                                                 animation-timing-function: ease-in-out;
+                                                 margin-left: 30px;
+                                                 margin-top: 0px;
+                    
+                                                 img {
+                                                     width: 100%;
+                                                 }
+                                             }
+                                         }
+
+            }
+                       
+        }
+    }
+}
